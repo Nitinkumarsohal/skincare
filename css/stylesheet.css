@@ -444,4 +444,55 @@ footer .img-set img {
     width: 80px;
     margin: 6px 0px;
 }
+
 /* footer clsoe  */
+/***** End home page css  *****/
+
+
+/***** about us css *****/
+.banner {
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-image: url("../images/about-banner.jpg");
+}
+
+/***** End about us css *****/
+
+
+/***** updates-banner *****/
+.updates-banner {
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    background-image: url("../images/update.jpg");
+}
+.text-all{
+    padding: 50px 0px 50px 0px;
+}
+.text-all .text-style{
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.text-all .text-style p{
+    color: var(--p-text);
+    padding-top: 6px;
+    font-size: 17px;
+}
+.text-all .text-style h4{
+    list-style-type: square;
+    font-weight: 700 !important;
+}
+/***** End updates-banner *****/
